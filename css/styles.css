@@ -2,50 +2,10 @@ body {
   font-size: 16px;
   color: #fff;
   background-color: #2c5bb6;
-  font-family: comic Sans MS, cursive;
+  font-family: Lora, cursive;
 }
 
-/*MAIN*/
-
-.container .jumbotron {
-  box-shadow: 0 0 50px #3F0C1F;
-  border: 2px solid #3F0C1F;
-}
-
-#menu-tile, #about-tile, #map-tile {
-  height: 250px;
-  width: 100%;
-  margin-bottom: 15px;
-  position: relative;
-  border: 2px solid #3F0C1F;
-  overflow: hidden;
-}
-#menu-tile:hover, #about-tile:hover, #map-tile:hover {
-  box-shadow: 0 1px 5px 1px #cccccc;
-}
-
-#menu-tile {
-  background: url('../images/menu-tile.jpg') no-repeat;
-  background-position: center;
-  background-size: 400px;
-}
-#about-tile {
-  background: url('../images/about-tile.jpg') no-repeat;
-  background-position: center;
-}
-
-#menu-tile span, #about-tile span, #map-tile span {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  text-align: center;
-  font-size: 1.6em;
-  text-transform: uppercase;
-  background-color: #000;
-  color: #fff;
-  opacity: .8;
-}
+/*HEADER*/
 
 #header-nav {
   background-color: #183263 ;
@@ -134,11 +94,50 @@ padding-top: 20px;
   margin-top: -30px;
 }
 
+/*MAIN*/
+
+.container .jumbotron {
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+}
+
+#menu-tile, #about-tile, #map-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+#menu-tile:hover, #about-tile:hover, #map-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-tile {
+  background: url('../images/menu-tile.jpg') no-repeat;
+  background-position: center;
+  background-size: 400px;
+}
+#about-tile {
+  background: url('../images/about-tile.jpg') no-repeat;
+  background-position: center;
+}
+
+#menu-tile span, #about-tile span, #map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
 
 
 /* FOOTER */        
-
-
 
 
 .panel-footer {
@@ -373,7 +372,16 @@ h3.menu-item-title {
     width: 360px;
     margin: 0 auto 15px;                        
   }
-
+  .menu-item-photo {
+    margin-right: auto;
+  }
+  .menu-item-tile .menu-item-price {
+    text-align: center;
+  }
+  .menu-item-description {
+    text-align: center;;
+  }
+  
 }
 /* END HEADER */
 
